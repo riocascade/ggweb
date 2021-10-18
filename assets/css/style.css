@@ -130,7 +130,7 @@ p {
   height: 100%;
   width: 100%;
   /* Change Background Color */
-  background: #fff;
+  background: #000;
   z-index: 99999; }
   .preloader .loader {
     display: table-cell;
@@ -186,7 +186,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #38f9d7 #38f9d7 #cbced1;
+      border-color: #A239EA#000;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
@@ -600,10 +600,9 @@ p {
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
 .navbar-area {
-  background: -webkit-linear-gradient(left, #000080 20%, #000000 100%);
-  background: -o-linear-gradient(left, #000080 20%, #000000 100%);
-  background: linear-gradient(to right, #000080 20%, #000000 100%);
-  padding: 10px 0;
+  background: url('./images/navbar.png');
+  background-position: center;  
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -963,6 +962,7 @@ p {
       .navbar-area.navbar-transparent .navbar .navbar-btn .menu-bar:hover {
         color: #38f9d7; }
     .navbar-area.navbar-transparent.sticky {
+      box-shadow: none;
       background-color: #fff; }
       .navbar-area.navbar-transparent.sticky .navbar .navbar-toggler .toggler-icon {
         background-color: #121212; }
@@ -995,12 +995,11 @@ p {
       .navbar-area.navbar-transparent-2 .navbar .navbar-btn .menu-bar:hover {
         color: #38f9d7; }
     .navbar-area.navbar-transparent-2.sticky {
+      box-shadow: none;
       background-color: #fff; }
   .navbar-area.sticky {
     position: fixed;
-    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: none;
     padding: 5px 0; }
 
 .sidebar-right {
@@ -1095,8 +1094,6 @@ p {
     display: block; }
 
 /*===== SLIDER ONE =====*/
-.slider-area {
-  padding-top: 40px; }
   .slider-area .bd-example .carousel .carousel-inner {
     background-color: #38f9d7; }
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
