@@ -1304,7 +1304,8 @@ p {
 ===========================*/
 .about-area {
   position: relative;
-  background-color: #121212;
+  background: url('./images/bg1.png');
+  background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px; }
   .about-area .section-title .title {
@@ -1481,7 +1482,8 @@ p {
 .portfolio-area {
   padding-top: 90px;
   padding-bottom: 100px;
-  background:#150050; }
+  background: url('./images/bg3.png');
+  background-size: cover; }
 
 .portfolio-menu ul li {
   font-size: 16px;
@@ -1666,7 +1668,8 @@ p {
       16.PRICING css 
 ===========================*/
 .pricing-area {
-  background-color: #121212;
+  background: url('./images/bg4.png');
+  background-size: cover;
   padding-top: 90px;
   padding-bottom: 100px; }
 
@@ -1806,7 +1809,8 @@ p {
 .call-action-area {
   padding-top: 50px;
   padding-bottom: 100px;
-background: #150050; }
+  background: url('./images/bg1.png');
+  background-size: cover; }
   .call-action-area .call-action-content .action-title {
     font-size: 32px;
     font-weight: 600;
@@ -1916,7 +1920,8 @@ background: #150050; }
 .testimonial-area {
   padding-top: 100px;
   padding-bottom: 70px;
-  background-color: #121212; }
+  background: url('./images/bg2.png');
+  background-size: cover; }
 
 .testimonial-2 {
   background-color: #fff; }
