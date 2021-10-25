@@ -1680,8 +1680,7 @@ p {
   padding: 24px 20px 38px;
   border-radius: 8px;
   position: relative;
-  overflow: hidden;
-  background-color: #fff; }
+  overflow: hidden; }
   .pricing-style-one .pricing-icon img {
     width: 200px; }
   .pricing-style-one .pricing-header .sub-title {
@@ -2374,4 +2373,62 @@ a.socialIcon:hover, .socialHoverClass {
 	-o-transition: all 0.8s;
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
+}
+
+.main-wrapper {
+  height: 100vh;  
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+/* Timeline vertical line */
+ul.timeline:before {
+  content: ' ';
+  background: #A239EA;
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  width: 4px;
+  height: 100%;
+  z-index: 400;
+  border-radius: 1rem;
+}
+
+li.timeline-item {
+  margin: 20px 0;
+  background: #A239EA;
+  color: #FFF338;
+}
+
+.timeline-header {
+  color: #FFF338;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid #A239EA;
+  border-bottom: 0.5rem solid transparent;
+  display: block;
+  position: absolute;
+  left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+  content: ' ';
+  background: #FFF338;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #FFF338;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  z-index: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
